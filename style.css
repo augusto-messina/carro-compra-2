@@ -72,10 +72,9 @@
   min-height: 96px;
 }
 
-.color {
-  --bs-text-opacity: 1;
+.color{
   color: #fff !important;
-  text-align: center;
+  text-align: center; 
 }
 
 .titulo-pag{
@@ -86,5 +85,11 @@
   flex-direction: column;
   text-align: center;
   margin-bottom: 3.125rem;
+}
+.pie-pag{
+  position: relative;
+  top: 1.5625rem;
+  margin-right: .3125rem;
+  display: inline-block;
 }
 
