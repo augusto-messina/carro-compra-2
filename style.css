@@ -93,3 +93,23 @@
   display: inline-block;
 }
 
+
+@media (max-width: 320px){
+  .item {
+    border: 1px solid #000;
+    padding: 10px;
+    border-radius: 20px;
+    width: 80%;
+    left: 40px;
+    position: relative;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    left: 66px;
+    position: relative;
+    font-size: 13px;
+}
+}
+
